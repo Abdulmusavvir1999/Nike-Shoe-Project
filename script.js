@@ -227,30 +227,3 @@ const registrationClose = document.querySelector(".close-registration")
 registrationClose.addEventListener("click", () => {
   registrationOpen.style.display = "none";
 })
-
-// dark-mode
-
-const darkBlack = document.querySelector("#dark-black")
-let itDark = false
-let darkBlackMode = document.body
-
-darkBlack.addEventListener("click", () => {
-
-  darkBlackMode.classList.toggle("dark-mode")
-  if (itDark) {
-    itDark = false
-  } else {
-    itDark = true
-  }
-  localStorage.setItem("dark", JSON.stringify(itDark))
-})
-
-window.onload = () => {
-  itDark = JSON.parse(localStorage.getItem("dark"))
-  if (itDark) {
-    darkBlackMode.classList.add("dark-mode")
-  } else {
-    darkBlackMode.classList.remove("dark-mode")
-  }
-  localStorage.setItem("dark", JSON.stringify(itDark))
-}
