@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="a9.css">
+    <script defer src="a9.js"></script>
+    <title>Nike Store</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <!-- nav-top -->
+            <div class="navTop">
+                <!-- .sneakers -->
+                <img src="./img/sneakers.png" alt="">
+                <!-- registration -->
+                <p class="registration" href="">Registration</p>
+            </div>
+            <div class="registration-form">
+                <div class="sub-registration">
+                    <div class="close-registration">X</div>
+                    <form id="form" action="#">
+                        <div id="input-group">
+                            <label id="label" for="username">USERNAME</label>
+                            <input id="username" type="text" id="username" name="username">
+                            <p id="error"></p>
+                        </div>
+                        <div id="input-group">
+                            <label id="label" for="email">EMAIL</label>
+                            <input id="email" type="text" id="email" name="email">
+                            <p id="error"></p>
+                        </div>
+                        <div id="input-group">
+                            <label id="label" for="password">PASSWORD</label>
+                            <input id="password" type="password" id="password" name="password">
+                            <p id="error"></p>
+                        </div>
+                        <div id="input-group">
+                            <label id="label" for="password">CONFORM PASSWORD</label>
+                            <input id="c-password" type="password" id="password" name="password">
+                            <p id="error"></p>
+                        </div>
+                        <button id="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+            <!-- nav-bottom -->
+            <div class="navBottom">
+                <p class="menu-item">AIR FORCE</p>
+                <p class="menu-item">JORDAN</p>
+                <p class="menu-item">BLAZER</p>
+                <p class="menu-item">CRATER</p>
+                <p class="menu-item">HIPPIE</p>
+            </div>
+        </nav>
+    </header>
+    <div class="slider">
+        <div class="slider-sub">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$109</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-feature">
+        <div class="feature">
+            <img class="feature-icon" src="./img/shipping.png" alt="">
+            <p class="feature-title">FREE SHIPPING</p>
+            <p class="feature-description">Free worldwide shipping on all orders.</p>
+        </div>
+        <div class="feature">
+            <img class="feature-icon" src="./img/return.png" alt="">
+            <p class="feature-title">30 DAYS RETURN</p>
+            <p class="feature-description">No question return and easy refund in 14 days.</p>
+        </div>
+        <div class="feature">
+            <img class="feature-icon" src="./img/gift.png" alt="">
+            <p class="feature-title">GIFT CARDS</p>
+            <p class="feature-description">Buy gift cards and use coupon codes easily.</p>
+        </div>
+        <div class="feature">
+            <img class="feature-icon" src="./img/contact.png" alt="">
+            <p class="feature-title">CONTACT US!</p>
+            <p class="feature-description">Keep in touch via email and support system.</p>
+        </div>
+    </div>
+    <!-- product -->
+    <div class="product">
+        <!-- product-img -->
+        <img src="./img/air.png" alt="" class="product-img">
+        <!-- product-details -->
+        <div class="product-details">
+            <h1 class="product-title">AIR FORCE</h1>
+            <h2 class="product-price">$199</h2>
+            <p class="product-description">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias
+                assumendadolorumdoloremque sapiente aliquid aperiam.</p>
+            <!-- colors -->
+            <div class="main-colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <!-- sizes -->
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <!-- buyNow to Payment  -->
+
+        <div class="payment">
+            <!-- personal-information -->
+            <h1 class="payTitle">Personal Information</h1>
+            <!-- surname -->
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Enter Your Surname" class="payInput">
+            <!-- phone -->
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <!-- address -->
+            <label>Address</label>
+            <input type="text" placeholder="Enter Your Address" class="payInput">
+            <!-- card-information -->
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+
+            <input type="tel" class="payInput" placeholder="Card Number">
+            <!-- card-info -->
+            <div class="cardInfo">
+                <input type="tel" placeholder="mm" class="payInput dates">
+                <input type="tel" placeholder="yyyy" class="payInput dates">
+                <input type="tel" placeholder="cvv" class="payInput dates">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <div class="footer-menu">
+                <p>About Us</p>
+                <ul class="fList">
+                    <li class="List-item">Company</li>
+                    <li class="List-item">Contact</li>
+                    <li class="List-item">Careers</li>
+                    <li class="List-item">Affiliates</li>
+                    <li class="List-item">Stores</li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <p>Useful Links</p>
+                <ul class="fList">
+                    <li class="List-item">Support</li>
+                    <li class="List-item">Refund</li>
+                    <li class="List-item">FAQ</li>
+                    <li class="List-item">Feedback</li>
+                    <li class="List-item">Stories</li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <p>Products</p>
+                <ul class="fList">
+                    <li class="List-item">Air Force</li>
+                    <li class="List-item">Air Jordan</li>
+                    <li class="List-item">Blazer</li>
+                    <li class="List-item">Crater</li>
+                    <li class="List-item">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-right-menu">
+                <h1>Subscribe to our newsletter</h1>
+                <div class="mail">
+                    <input type="text" placeholder="your@email.com" class="footer-Input">
+                    <button class="join">Join!</button>
+                </div>
+            </div>
+            <div class="social-media">
+                <h1>Follow Us</h1>
+                <div class="fa-main-Icons">
+                    <img src="./img/facebook.png" alt="" class="fa-icon">
+                    <img src="./img/twitter.png" alt="" class="fa-icon">
+                    <img src="./img/instagram.png" alt="" class="fa-icon">
+                    <img src="./img/whatsapp.png" alt="" class="fa-icon">
+                </div>
+            </div>
+            
+            <marquee class="Copyrights">Copyrights by MR_WHITEY</marquee>
+        </div>
+    </footer>
+</body>
